@@ -4,7 +4,7 @@ function Info() {
   const [cv, setCV] = useState({});
 
   useEffect(() => {
-    fetch("http://100.123.97.64/api2.php")
+    fetch("http://100.123.97.64/api.php")
       .then(res => res.json())
       .then(data => setCV(data));
   }, []);
