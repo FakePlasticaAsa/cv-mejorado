@@ -5,6 +5,7 @@ function CVpreview() {
   const generatePDF = () => {
     const doc = new jsPDF();
     doc.text('Curriculum Vitae', 10, 10);
+    // Add more details...
     doc.save('cv.pdf');
   };
 
