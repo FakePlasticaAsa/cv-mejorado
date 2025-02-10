@@ -8,7 +8,7 @@ function Info() {
       .then(res => res.json())
       .then(data => setCV(data));
   }, []);
-
+  
   return (
     <div>
       <h2>CV Information</h2>
